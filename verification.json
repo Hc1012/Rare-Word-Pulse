@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "numeric_comparisons": 11389,
+  "maximum_absolute_difference": 1.3877787807814457e-17,
+  "elapsed_seconds": 2.252548126001784,
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "matplotlib": "3.10.8",
+  "raw_scores_sha256": "5b78dd59f3c81e1c9780c954e76b1b08f2a488732f07528c4b720c1e83727b12",
+  "scope": "Numerical reconstruction from saved observations; no training, model loading, or network access."
+}

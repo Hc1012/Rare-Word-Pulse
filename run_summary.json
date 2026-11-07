@@ -1,0 +1,20 @@
+{
+  "normal_status": "COMPLETE",
+  "normal_final_step": 350,
+  "high_status": "STABILITY_REVIEW",
+  "high_final_step": 200,
+  "initial_dev_nll": 4.701812326091609,
+  "shared_dev_nll": 4.6635423673964445,
+  "normal_pre_dev_nll": 4.651085521999093,
+  "normal_final_dev_nll": 4.6111625576828015,
+  "high_pre_dev_nll": 4.786138426301064,
+  "high_dev_relative_change": 0.026288183798159004,
+  "normal_exposures": 200,
+  "high_exposures": 0,
+  "long_chase_started": false,
+  "actual_training_updates": 400,
+  "planned_training_updates": 550,
+  "seconds": 425.49798488616943,
+  "estimated_units_successful_invocation": 0.7954448439677556,
+  "actual_provider_charge_known": false
+}

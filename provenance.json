@@ -1,0 +1,70 @@
+{
+  "source_archive": "Rare_Word_StageA_Results.zip",
+  "source_archive_sha256": "66598fa02d6e36a8e905b46cd3dfb333da8c98261073d7f15d18a8ef4254ff6e",
+  "source_members": {
+    "analysis.json": "8a4a8cc188589619483083250a64c418e34374fab20c590a9d0b2c3665663ab3",
+    "lr_5e5/state.json": "a2d4b50365665a61f49de69e19c54c28bccdb27e74c02655499e3f96d5191f1d",
+    "lr_2e4/state.json": "2b4e39af825e1e123a81d52c5391a463eb7fe3c4a34c0b1498d7965479999d4e",
+    "shared/state.json": "7b6431279fd71a5520bd1b1d3a12cec19fa140347743ec0d053006b039a7a66e",
+    "frozen_inputs/assets.json": "0d2da74ea151fad0f04c94259e10f60173be8ff002c55e7359f517a0fa062b0d",
+    "frozen_inputs/protocol.json": "1f369e73e5b1405e41fdc338ca418a2f1e7122ec55cab944bb40e3dc47f9fa26",
+    "session_receipt.json": "87f3cf5c568cd286e8bfbff6de7c869c2d6cb5e9286f4a5ccbbb17c75b4ce378"
+  },
+  "model": {
+    "repo_id": "BabyLM-community/BabyLM-2026-Baseline-GPT2-Strict-Small",
+    "revision": "3dc1de10cdad2e54bcc71e9b73d182608d6966f1",
+    "files": [
+      {
+        "name": "config.json",
+        "sha256": "6068ee1383037da7ed4861d7f044196f31065e8b32818d7597cd14cfbb5d4640",
+        "bytes": 866,
+        "url": "https://huggingface.co/BabyLM-community/BabyLM-2026-Baseline-GPT2-Strict-Small/resolve/3dc1de10cdad2e54bcc71e9b73d182608d6966f1/config.json"
+      },
+      {
+        "name": "model.safetensors",
+        "sha256": "18eec660c772e23cf8d9f20ddacd42dde1d6b8e40981c691303dd2552bbc34e7",
+        "bytes": 393716352,
+        "url": "https://huggingface.co/BabyLM-community/BabyLM-2026-Baseline-GPT2-Strict-Small/resolve/3dc1de10cdad2e54bcc71e9b73d182608d6966f1/model.safetensors"
+      }
+    ]
+  },
+  "training_data": {
+    "train_repo": "BabyLM-community/BabyLM-2026-Strict-Small",
+    "train_revision": "c92ab16b4f08858304b0815706065b3354d8fc0a",
+    "dev_repo": "BabyLM-community/BabyLM-dev",
+    "dev_revision": "169f42e32d0aaf65ec6b91d55bafad27a3afc729",
+    "training_rows": 29066,
+    "dev_rows": 192,
+    "historical_training_order_recovered": false,
+    "candidate_absence_cleaned_background": "PASS"
+  },
+  "lt_swap_revision": "617bcc137009a4be3117c8d0d4e5f5fb610b8546",
+  "extraction": "Raw target-score averages for own/other, source-target sums, and directional full-sentence scores; no effects or confidence intervals fitted during extraction.",
+  "raw_scores_dimensions": "[200 pairs, 2 assignments, 14 relative times, 3 components]",
+  "raw_scores_assignment_order": [
+    "treated",
+    "control"
+  ],
+  "raw_scores_component_order": [
+    "own",
+    "other",
+    "source"
+  ],
+  "directional_dimensions": "[200 pairs, 2 assignments, 2 times, 2 probe rows, 2 sides]",
+  "directional_times": [
+    "pre_full",
+    "final_full"
+  ],
+  "directional_sides": [
+    "good",
+    "swapped"
+  ],
+  "content_excluded": [
+    "model weights",
+    "optimizer states",
+    "training corpus",
+    "exposure text",
+    "probe sentences",
+    "tokenized text"
+  ]
+}

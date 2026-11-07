@@ -1,0 +1,16 @@
+{
+  ".gitignore": "f1bb8745e827993437963d477a5ee256ca6a098946da514125ce8c0373fc0b51",
+  "README.md": "54cfcfbb1dae886b6f59febe6991d3d7c9a04a6d487804c68615b2e36448c794",
+  "Rare_Word_Pulse_Case_Study.pdf": "ff25c320784197bc167b847aaaf532f03cd1d1c0f1afbe52a86967dd17c6bcc3",
+  "analysis.json": "8a4a8cc188589619483083250a64c418e34374fab20c590a9d0b2c3665663ab3",
+  "make_linkedin_figure.py": "7e729096e6f7bc5e1c796bee845955bd5110b04b97498273a957f3df3e7c5ab2",
+  "protocol.json": "1f369e73e5b1405e41fdc338ca418a2f1e7122ec55cab944bb40e3dc47f9fa26",
+  "provenance.json": "a6835ebfc858e7026541cad2f6125fb54f3d2c35275075c9dbd40ed7a52fe778",
+  "rare_word_learning_curves.png": "be0770e2e4fbda45f9e6350cfc4223b52c40fcbe75735179e9a13c095ab5b892",
+  "rare_word_linkedin.png": "1695c9aa9362e8454ce783ed65bfd255f4e77d6ec11b6ff88f885e58a4912b5c",
+  "raw_scores.npz": "5b78dd59f3c81e1c9780c954e76b1b08f2a488732f07528c4b720c1e83727b12",
+  "reproduce.py": "f1d7515dda06d278bc42b9dfd3a2957047cd3bbd183ea7fe0e971c8d58e81e07",
+  "requirements.txt": "4c40934e438ae009a1eb0b5a9322cce029fba6ca1af6e314c088c1957cee0c04",
+  "run_summary.json": "69f3bf5a57bb2ebd6de7c5d5bded9e22194dc3bc611798d9accdc28293398f21",
+  "verification.json": "1a285bf020b801bdcd5b53549aff0e190f3386753cec460661db152f986afcce"
+}
